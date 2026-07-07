@@ -1,0 +1,127 @@
+
+04-07-2026 10:31:06 | INFO | ================================================================================
+04-07-2026 10:31:06 | INFO | Libraries Imported Successfully
+04-07-2026 10:31:06 | INFO | ================================================================================
+04-07-2026 10:31:20 | INFO | Loading Superstore Dataset...
+04-07-2026 10:31:20 | INFO | Dataset Shape : (9800, 18)
+04-07-2026 10:32:09 | INFO | Rows : 9800
+04-07-2026 10:32:09 | INFO | Columns : 18
+04-07-2026 10:32:46 | INFO | Checking Dataset Information
+04-07-2026 10:34:31 | INFO | Generating Statistical Summary
+04-07-2026 10:38:31 | INFO | Handling Missing Postal Codes
+04-07-2026 10:38:31 | INFO | Missing Values Handled
+04-07-2026 10:39:19 | INFO | Duplicate Rows : 004-07-2026 
+04-07-2026 10:47:29 | INFO | Converting Date Columns
+04-07-2026 10:47:29 | INFO | Date Conversion Completed
+04-07-2026 10:50:43 | INFO | Creating Time Features
+04-07-2026 10:50:43 | INFO | Time Features Created
+04-07-2026 10:51:54 | INFO | Shipping Days Feature Created
+04-07-2026 10:52:07 | INFO | Clean Dataset Saved
+05-07-2026 09:37:44 | INFO | Plotting Sales Distribution
+05-07-2026 09:40:00 | INFO | Sales Boxplot
+05-07-2026 09:51:11 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+05-07-2026 09:51:11 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+05-07-2026 09:56:18 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+05-07-2026 09:56:18 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+05-07-2026 09:57:41 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+05-07-2026 09:57:41 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+05-07-2026 09:58:25 | INFO | Chromium init'ed with kwargs {}
+05-07-2026 09:58:25 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+05-07-2026 09:58:25 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpa156nzid.
+05-07-2026 09:58:25 | INFO | Opening browser.
+05-07-2026 09:58:25 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpdmfuzdoq.
+05-07-2026 09:58:25 | INFO | Temporary directory at: C:\Users\Admin\AppData\Local\Temp\tmpdmfuzdoq
+05-07-2026 09:58:26 | INFO | Conforming 1 to file:///C:/Users/Admin/AppData/Local/Temp/tmpa156nzid/index.html
+05-07-2026 09:58:28 | INFO | Getting tab from queue (has 1)
+05-07-2026 09:58:28 | INFO | Got 4EB4
+05-07-2026 09:58:29 | INFO | Reloading tab 4EB4 before return.
+05-07-2026 09:58:29 | INFO | Putting tab 4EB4 back (queue size: 0).
+05-07-2026 09:58:29 | INFO | Waiting for all cleanups to finish.
+05-07-2026 09:58:29 | INFO | Exiting Kaleido.
+05-07-2026 09:58:29 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:58:29 | INFO | shutil.rmtree worked.
+05-07-2026 09:58:29 | INFO | Closing browser.
+05-07-2026 09:58:29 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:58:29 | INFO | shutil.rmtree worked.
+05-07-2026 09:58:29 | INFO | Closing browser.
+05-07-2026 09:58:29 | INFO | Cancelling tasks.
+05-07-2026 09:58:29 | INFO | Exiting Kaleido/Choreo.
+05-07-2026 09:58:29 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:58:29 | INFO | shutil.rmtree worked.
+05-07-2026 09:58:29 | INFO | Cancelling tasks.
+05-07-2026 09:58:29 | INFO | Exiting Kaleido/Choreo.
+05-07-2026 09:58:29 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:58:29 | INFO | shutil.rmtree worked.
+05-07-2026 09:59:45 | INFO | Chromium init'ed with kwargs {}
+05-07-2026 09:59:45 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+05-07-2026 09:59:45 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpzmnbwmng.
+05-07-2026 09:59:45 | INFO | Opening browser.
+05-07-2026 09:59:45 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpwjmhvnz3.
+05-07-2026 09:59:45 | INFO | Temporary directory at: C:\Users\Admin\AppData\Local\Temp\tmpwjmhvnz3
+05-07-2026 09:59:46 | INFO | Conforming 1 to file:///C:/Users/Admin/AppData/Local/Temp/tmpzmnbwmng/index.html
+05-07-2026 09:59:48 | INFO | Getting tab from queue (has 1)
+05-07-2026 09:59:48 | INFO | Got 7EEB
+05-07-2026 09:59:48 | INFO | Reloading tab 7EEB before return.
+05-07-2026 09:59:49 | INFO | Putting tab 7EEB back (queue size: 0).
+05-07-2026 09:59:49 | INFO | Waiting for all cleanups to finish.
+05-07-2026 09:59:49 | INFO | Exiting Kaleido.
+05-07-2026 09:59:49 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:59:49 | INFO | shutil.rmtree worked.
+05-07-2026 09:59:49 | INFO | Closing browser.
+05-07-2026 09:59:49 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:59:49 | INFO | shutil.rmtree worked.
+05-07-2026 09:59:49 | INFO | Closing browser.
+05-07-2026 09:59:49 | INFO | Cancelling tasks.
+05-07-2026 09:59:49 | INFO | Exiting Kaleido/Choreo.
+05-07-2026 09:59:49 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 09:59:49 | INFO | shutil.rmtree worked.
+05-07-2026 09:59:49 | INFO | Cancelling tasks.
+05-07-2026 09:59:49 | INFO | Exiting Kaleido/Choreo.
+05-07-2026 10:00:25 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 10:00:25 | INFO | shutil.rmtree worked.
+05-07-2026 10:00:25 | INFO | Chromium init'ed with kwargs {}
+05-07-2026 10:00:25 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+05-07-2026 10:00:25 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmp13w82t3z.
+05-07-2026 10:00:25 | INFO | Opening browser.
+05-07-2026 10:00:25 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpjw5hsbse.
+05-07-2026 10:00:25 | INFO | Temporary directory at: C:\Users\Admin\AppData\Local\Temp\tmpjw5hsbse
+05-07-2026 10:00:25 | INFO | Conforming 1 to file:///C:/Users/Admin/AppData/Local/Temp/tmp13w82t3z/index.html
+05-07-2026 10:00:28 | INFO | Getting tab from queue (has 1)
+05-07-2026 10:00:28 | INFO | Got F880
+05-07-2026 10:00:28 | INFO | Reloading tab F880 before return.
+05-07-2026 10:00:28 | INFO | Putting tab F880 back (queue size: 0).
+05-07-2026 10:00:28 | INFO | Waiting for all cleanups to finish.
+05-07-2026 10:00:28 | INFO | Exiting Kaleido.
+05-07-2026 10:00:28 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 10:00:28 | INFO | shutil.rmtree worked.
+05-07-2026 10:00:28 | INFO | Closing browser.
+05-07-2026 10:00:28 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 10:00:28 | INFO | shutil.rmtree worked.
+05-07-2026 10:00:28 | INFO | Closing browser.
+05-07-2026 10:00:28 | INFO | Cancelling tasks.
+05-07-2026 10:00:28 | INFO | Exiting Kaleido/Choreo.
+05-07-2026 10:00:29 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 10:00:29 | INFO | shutil.rmtree worked.
+05-07-2026 10:00:29 | INFO | Cancelling tasks.
+05-07-2026 10:00:29 | INFO | Exiting Kaleido/Choreo.
+05-07-2026 10:01:34 | INFO | TemporaryDirectory.cleanup() worked.
+05-07-2026 10:01:34 | INFO | shutil.rmtree worked.
+05-07-2026 10:06:52 | INFO | Category vs Region Heatmap
+05-07-2026 10:08:30 | INFO | Year-Month Heatmap
+05-07-2026 10:26:16 | INFO | ================================================================================
+05-07-2026 10:26:16 | INFO | Libraries Imported Successfully
+05-07-2026 10:26:16 | INFO | 
+07-07-2026 09:37:24 | INFO | Preparing Monthly Sales Dataset
+07-07-2026 09:37:24 | INFO | Monthly Dataset Shape : (48, 1)
+07-07-2026 09:39:32 | INFO | Preparing Monthly Sales Dataset
+07-07-2026 09:39:32 | INFO | Monthly Dataset Shape : (48, 1)
+07-07-2026 09:40:58 | INFO | Training SARIMA Model
+07-07-2026 09:40:59 | INFO | SARIMA Training Completed
+07-07-2026 09:59:58 | INFO | Preparing Data for Prophet
+07-07-2026 10:02:02 | INFO | Training Prophet Model
+07-07-2026 10:02:03 | INFO | Chain [1] start processing
+07-07-2026 10:02:04 | INFO | Chain [1] done processing
+07-07-2026 10:02:04 | INFO | Prophet Training Completed
+07-07-2026 10:11:24 | INFO | Creating Lag Features
+07-07-2026 10:13:32 | INFO | Training XGBoost
+07-07-2026 10:13:33 | INFO | XGBoost Training Completed
