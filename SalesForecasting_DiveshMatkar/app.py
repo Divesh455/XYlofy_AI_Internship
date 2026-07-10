@@ -440,7 +440,7 @@ elif page == "Forecast Explorer":
 
     )
     comparison = pd.read_csv(
-    "Outputs/model_comparison.csv"
+        "Outputs/model_comparison.csv"
     )
 
     best = comparison[
