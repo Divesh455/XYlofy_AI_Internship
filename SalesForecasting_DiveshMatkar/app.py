@@ -427,7 +427,7 @@ elif page == "Forecast Explorer":
 
         fig,
 
-        use_container_width=True
+        width='stretch'
 
     )
     st.subheader("Forecast Values")
@@ -436,7 +436,7 @@ elif page == "Forecast Explorer":
 
         forecast_df,
 
-        use_container_width=True
+        width='stretch'
 
     )
     comparison = pd.read_csv(
@@ -588,7 +588,7 @@ elif page == "Anomaly Report":
 
     st.plotly_chart(
         fig,
-        use_container_width=True
+        width='stretch'
     )
     st.subheader("📋 Detected Anomalies")
 
@@ -606,7 +606,7 @@ elif page == "Anomaly Report":
 
     st.dataframe(
         anomaly_table,
-        use_container_width=True
+        width='stretch'
     )
     
     csv = anomaly_table.to_csv(index=False).encode("utf-8")
@@ -683,7 +683,7 @@ elif page == "Product Demand Segments":
     color="Demand Segment",
     title="Demand Segments by Sales")
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
     
     fig = px.scatter(
     segment_df,
@@ -694,7 +694,7 @@ elif page == "Product Demand Segments":
     hover_name="Sub-Category",
     title="Demand Segmentation")
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
     
     st.subheader("📦 Demand Segment Distribution")
     
@@ -727,7 +727,7 @@ elif page == "Product Demand Segments":
             ]
         ],
 
-        use_container_width=True
+        width='stretch'
 
     )
     
