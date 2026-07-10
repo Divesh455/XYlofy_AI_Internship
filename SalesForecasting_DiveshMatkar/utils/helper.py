@@ -1,6 +1,8 @@
 import joblib
 
 from config import MODEL_DIR
+from xgboost import XGBRegressor
+import pandas as pd
 
 
 def save_model(model, filename):
