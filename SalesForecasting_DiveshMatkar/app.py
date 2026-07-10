@@ -14,7 +14,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("Outputs\clean_superstore.csv", encoding="latin1")
+    df = pd.read_csv("Outputs/clean_superstore.csv", encoding="latin1")
 
     df["Order Date"] = pd.to_datetime(df["Order Date"])
 
