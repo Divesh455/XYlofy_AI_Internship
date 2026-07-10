@@ -411,3 +411,231 @@
 09-07-2026 11:21:20 | INFO | Running Isolation Forest
 09-07-2026 11:21:23 | INFO | Preparing Product Segmentation Dataset
 09-07-2026 11:25:02 | INFO | Training KMeans
+10-07-2026 10:01:14 | INFO | ================================================================================
+10-07-2026 10:01:14 | INFO | Libraries Imported Successfully
+10-07-2026 10:01:14 | INFO | ================================================================================
+10-07-2026 10:01:14 | INFO | Loading Superstore Dataset...
+10-07-2026 10:01:14 | INFO | Dataset Shape : (9800, 18)
+10-07-2026 10:01:14 | INFO | Rows : 9800
+10-07-2026 10:01:14 | INFO | Columns : 18
+10-07-2026 10:01:14 | INFO | Checking Dataset Information
+10-07-2026 10:01:14 | INFO | Generating Statistical Summary
+10-07-2026 10:01:14 | INFO | Handling Missing Postal Codes
+10-07-2026 10:01:14 | INFO | Missing Values Handled
+10-07-2026 10:01:14 | INFO | Duplicate Rows : 0
+10-07-2026 10:01:15 | INFO | Converting Date Columns
+10-07-2026 10:01:15 | INFO | Date Conversion Completed
+10-07-2026 10:01:15 | INFO | Creating Time Features
+10-07-2026 10:01:15 | INFO | Time Features Created
+10-07-2026 10:01:15 | INFO | Shipping Days Feature Created
+10-07-2026 10:01:15 | INFO | Clean Dataset Saved
+10-07-2026 10:01:15 | INFO | Plotting Sales Distribution
+10-07-2026 10:01:18 | INFO | Sales Boxplot
+10-07-2026 10:01:28 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:01:28 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:01:31 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:01:31 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:01:33 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:01:33 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:01:37 | INFO | Chromium init'ed with kwargs {}
+10-07-2026 10:01:37 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+10-07-2026 10:01:37 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpjkzhvmp3.
+10-07-2026 10:01:37 | INFO | Opening browser.
+10-07-2026 10:01:37 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmp4upx9q8o.
+10-07-2026 10:01:37 | INFO | Temporary directory at: C:\Users\Admin\AppData\Local\Temp\tmp4upx9q8o
+10-07-2026 10:01:39 | INFO | Conforming 1 to file:///C:/Users/Admin/AppData/Local/Temp/tmpjkzhvmp3/index.html
+10-07-2026 10:01:42 | INFO | Getting tab from queue (has 1)
+10-07-2026 10:01:42 | INFO | Got FCE2
+10-07-2026 10:01:43 | INFO | Reloading tab FCE2 before return.
+10-07-2026 10:01:43 | INFO | Putting tab FCE2 back (queue size: 0).
+10-07-2026 10:01:43 | INFO | Waiting for all cleanups to finish.
+10-07-2026 10:01:43 | INFO | Exiting Kaleido.
+10-07-2026 10:01:43 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:01:43 | INFO | shutil.rmtree worked.
+10-07-2026 10:01:43 | INFO | Closing browser.
+10-07-2026 10:01:43 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:01:43 | INFO | shutil.rmtree worked.
+10-07-2026 10:01:43 | INFO | Closing browser.
+10-07-2026 10:01:43 | INFO | Cancelling tasks.
+10-07-2026 10:01:43 | INFO | Exiting Kaleido/Choreo.
+10-07-2026 10:01:44 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:01:44 | INFO | shutil.rmtree worked.
+10-07-2026 10:01:44 | INFO | Cancelling tasks.
+10-07-2026 10:01:44 | INFO | Exiting Kaleido/Choreo.
+10-07-2026 10:01:44 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:01:44 | INFO | shutil.rmtree worked.
+10-07-2026 10:01:53 | INFO | Category vs Region Heatmap
+10-07-2026 10:01:56 | INFO | Year-Month Heatmap
+10-07-2026 10:02:14 | INFO | Preparing Monthly Sales Dataset
+10-07-2026 10:02:14 | INFO | Monthly Dataset Shape : (48, 1)
+10-07-2026 10:02:14 | INFO | Training SARIMA Model
+10-07-2026 10:02:14 | INFO | SARIMA Training Completed
+10-07-2026 10:02:18 | INFO | Preparing Data for Prophet
+10-07-2026 10:02:18 | INFO | Training Prophet Model
+10-07-2026 10:02:18 | INFO | Chain [1] start processing
+10-07-2026 10:02:21 | INFO | Chain [1] done processing
+10-07-2026 10:02:21 | INFO | Prophet Training Completed
+10-07-2026 10:02:26 | INFO | Creating Lag Features
+10-07-2026 10:02:26 | INFO | Training XGBoost
+10-07-2026 10:02:27 | INFO | XGBoost Training Completed
+10-07-2026 10:02:35 | INFO | Forecasting Business Segments
+10-07-2026 10:05:00 | INFO | ================================================================================
+10-07-2026 10:05:00 | INFO | Libraries Imported Successfully
+10-07-2026 10:05:00 | INFO | ================================================================================
+10-07-2026 10:05:00 | INFO | Loading Superstore Dataset...
+10-07-2026 10:05:00 | INFO | Dataset Shape : (9800, 18)
+10-07-2026 10:05:00 | INFO | Rows : 9800
+10-07-2026 10:05:00 | INFO | Columns : 18
+10-07-2026 10:05:00 | INFO | Checking Dataset Information
+10-07-2026 10:05:00 | INFO | Generating Statistical Summary
+10-07-2026 10:05:00 | INFO | Handling Missing Postal Codes
+10-07-2026 10:05:00 | INFO | Missing Values Handled
+10-07-2026 10:05:00 | INFO | Duplicate Rows : 0
+10-07-2026 10:05:00 | INFO | Converting Date Columns
+10-07-2026 10:05:00 | INFO | Date Conversion Completed
+10-07-2026 10:05:00 | INFO | Creating Time Features
+10-07-2026 10:05:00 | INFO | Time Features Created
+10-07-2026 10:05:00 | INFO | Shipping Days Feature Created
+10-07-2026 10:05:01 | INFO | Clean Dataset Saved
+10-07-2026 10:05:01 | INFO | Plotting Sales Distribution
+10-07-2026 10:05:01 | INFO | Sales Boxplot
+10-07-2026 10:05:08 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:05:08 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:05:10 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:05:10 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:05:11 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:05:11 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 10:05:13 | INFO | Chromium init'ed with kwargs {}
+10-07-2026 10:05:13 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+10-07-2026 10:05:13 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmppvds_v8g.
+10-07-2026 10:05:13 | INFO | Opening browser.
+10-07-2026 10:05:13 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpowamhad_.
+10-07-2026 10:05:13 | INFO | Temporary directory at: C:\Users\Admin\AppData\Local\Temp\tmpowamhad_
+10-07-2026 10:05:13 | INFO | Conforming 1 to file:///C:/Users/Admin/AppData/Local/Temp/tmppvds_v8g/index.html
+10-07-2026 10:05:15 | INFO | Getting tab from queue (has 1)
+10-07-2026 10:05:15 | INFO | Got CD08
+10-07-2026 10:05:15 | INFO | Reloading tab CD08 before return.
+10-07-2026 10:05:15 | INFO | Putting tab CD08 back (queue size: 0).
+10-07-2026 10:05:15 | INFO | Waiting for all cleanups to finish.
+10-07-2026 10:05:15 | INFO | Exiting Kaleido.
+10-07-2026 10:05:15 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:05:15 | INFO | shutil.rmtree worked.
+10-07-2026 10:05:15 | INFO | Closing browser.
+10-07-2026 10:05:15 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:05:15 | INFO | shutil.rmtree worked.
+10-07-2026 10:05:15 | INFO | Closing browser.
+10-07-2026 10:05:15 | INFO | Cancelling tasks.
+10-07-2026 10:05:15 | INFO | Exiting Kaleido/Choreo.
+10-07-2026 10:05:16 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:05:16 | INFO | shutil.rmtree worked.
+10-07-2026 10:05:16 | INFO | Cancelling tasks.
+10-07-2026 10:05:16 | INFO | Exiting Kaleido/Choreo.
+10-07-2026 10:05:17 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 10:05:17 | INFO | shutil.rmtree worked.
+10-07-2026 10:05:17 | INFO | Category vs Region Heatmap
+10-07-2026 10:05:18 | INFO | Year-Month Heatmap
+10-07-2026 10:05:25 | INFO | Preparing Monthly Sales Dataset
+10-07-2026 10:05:25 | INFO | Monthly Dataset Shape : (48, 1)
+10-07-2026 10:05:25 | INFO | Training SARIMA Model
+10-07-2026 10:05:25 | INFO | SARIMA Training Completed
+10-07-2026 10:05:27 | INFO | Preparing Data for Prophet
+10-07-2026 10:05:27 | INFO | Training Prophet Model
+10-07-2026 10:05:27 | INFO | Chain [1] start processing
+10-07-2026 10:05:27 | INFO | Chain [1] done processing
+10-07-2026 10:05:27 | INFO | Prophet Training Completed
+10-07-2026 10:05:29 | INFO | Creating Lag Features
+10-07-2026 10:05:29 | INFO | Training XGBoost
+10-07-2026 10:05:29 | INFO | XGBoost Training Completed
+10-07-2026 10:05:32 | INFO | Forecasting Business Segments
+10-07-2026 10:05:37 | INFO | Creating Weekly Sales Dataset
+10-07-2026 10:05:37 | INFO | Running Isolation Forest
+10-07-2026 10:05:41 | INFO | Preparing Product Segmentation Dataset
+10-07-2026 10:05:49 | INFO | Training KMeans
+10-07-2026 12:57:31 | INFO | ================================================================================
+10-07-2026 12:57:31 | INFO | Libraries Imported Successfully
+10-07-2026 12:57:31 | INFO | ================================================================================
+10-07-2026 12:57:31 | INFO | Loading Superstore Dataset...
+10-07-2026 12:57:32 | INFO | Dataset Shape : (9800, 18)
+10-07-2026 12:57:32 | INFO | Rows : 9800
+10-07-2026 12:57:32 | INFO | Columns : 18
+10-07-2026 12:57:32 | INFO | Checking Dataset Information
+10-07-2026 12:57:32 | INFO | Generating Statistical Summary
+10-07-2026 12:57:33 | INFO | Handling Missing Postal Codes
+10-07-2026 12:57:33 | INFO | Missing Values Handled
+10-07-2026 12:57:33 | INFO | Duplicate Rows : 0
+10-07-2026 12:57:33 | INFO | Converting Date Columns
+10-07-2026 12:57:33 | INFO | Date Conversion Completed
+10-07-2026 12:57:33 | INFO | Creating Time Features
+10-07-2026 12:57:33 | INFO | Time Features Created
+10-07-2026 12:57:33 | INFO | Shipping Days Feature Created
+10-07-2026 12:57:34 | INFO | Clean Dataset Saved
+10-07-2026 12:57:34 | INFO | Plotting Sales Distribution
+10-07-2026 12:57:36 | INFO | Sales Boxplot
+10-07-2026 12:57:38 | INFO | Total Sale by Category
+10-07-2026 12:57:40 | INFO | Sale By Region
+10-07-2026 12:57:42 | INFO | Top 10 State by Sales
+10-07-2026 12:57:44 | INFO | Top 10 City by slaes
+10-07-2026 12:57:46 | INFO | Monthly sale trend
+10-07-2026 12:57:48 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 12:57:48 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 12:57:50 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 12:57:50 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 12:57:53 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 12:57:53 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10-07-2026 12:57:55 | INFO | Chromium init'ed with kwargs {}
+10-07-2026 12:57:55 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+10-07-2026 12:57:55 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmplh3htr3i.
+10-07-2026 12:57:55 | INFO | Opening browser.
+10-07-2026 12:57:55 | INFO | Temp directory created: C:\Users\Admin\AppData\Local\Temp\tmpd8jp_640.
+10-07-2026 12:57:55 | INFO | Temporary directory at: C:\Users\Admin\AppData\Local\Temp\tmpd8jp_640
+10-07-2026 12:57:56 | INFO | Conforming 1 to file:///C:/Users/Admin/AppData/Local/Temp/tmplh3htr3i/index.html
+10-07-2026 12:58:00 | INFO | Getting tab from queue (has 1)
+10-07-2026 12:58:00 | INFO | Got DDD4
+10-07-2026 12:58:00 | INFO | Reloading tab DDD4 before return.
+10-07-2026 12:58:00 | INFO | Putting tab DDD4 back (queue size: 0).
+10-07-2026 12:58:00 | INFO | Waiting for all cleanups to finish.
+10-07-2026 12:58:00 | INFO | Exiting Kaleido.
+10-07-2026 12:58:00 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 12:58:00 | INFO | shutil.rmtree worked.
+10-07-2026 12:58:00 | INFO | Closing browser.
+10-07-2026 12:58:00 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 12:58:00 | INFO | shutil.rmtree worked.
+10-07-2026 12:58:00 | INFO | Closing browser.
+10-07-2026 12:58:00 | INFO | Cancelling tasks.
+10-07-2026 12:58:00 | INFO | Exiting Kaleido/Choreo.
+10-07-2026 12:58:01 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 12:58:01 | INFO | shutil.rmtree worked.
+10-07-2026 12:58:01 | INFO | Cancelling tasks.
+10-07-2026 12:58:01 | INFO | Exiting Kaleido/Choreo.
+10-07-2026 12:58:01 | INFO | Customer Segement Sales
+10-07-2026 12:58:02 | INFO | TemporaryDirectory.cleanup() worked.
+10-07-2026 12:58:02 | INFO | shutil.rmtree worked.
+10-07-2026 12:58:04 | INFO | Category vs Region Heatmap
+10-07-2026 12:58:06 | INFO | Year-Month Heatmap
+10-07-2026 12:58:21 | INFO | EDA Completed
+10-07-2026 12:58:21 | INFO | Preparing Monthly Sales Dataset
+10-07-2026 12:58:21 | INFO | Monthly Dataset Shape : (48, 1)
+10-07-2026 12:58:21 | INFO | Train Test Split
+10-07-2026 12:58:21 | INFO | Training SARIMA Model
+10-07-2026 12:58:22 | INFO | SARIMA Training Completed
+10-07-2026 12:58:25 | INFO | SAMIRIA model Evaluation
+10-07-2026 12:58:25 | INFO | Save SAMARIA model
+10-07-2026 12:58:25 | INFO | Preparing Data for Prophet
+10-07-2026 12:58:25 | INFO | Training Prophet Model
+10-07-2026 12:58:25 | INFO | Chain [1] start processing
+10-07-2026 12:58:29 | INFO | Chain [1] done processing
+10-07-2026 12:58:29 | INFO | Prophet Training Completed
+10-07-2026 12:58:33 | INFO | Evaluate PROPHET model
+10-07-2026 12:58:33 | INFO | Save PROPHET Model
+10-07-2026 12:58:34 | INFO | Creating Lag Features
+10-07-2026 12:58:34 | INFO | Training XGBoost
+10-07-2026 12:58:34 | INFO | XGBoost Training Completed
+10-07-2026 12:58:38 | INFO | Evaluate XGBoost Model
+10-07-2026 12:58:38 | INFO | Save XGBoost Model
+10-07-2026 12:58:38 | INFO | Models Comparison
+10-07-2026 12:58:40 | INFO | Forecasting Business Segments
+10-07-2026 12:58:51 | INFO | Creating Weekly Sales Dataset
+10-07-2026 12:58:51 | INFO | Running Isolation Forest
+10-07-2026 12:59:03 | INFO | Preparing Product Segmentation Dataset
+10-07-2026 12:59:06 | INFO | Training KMeans
+10-07-2026 13:00:28 | INFO | All Done 
